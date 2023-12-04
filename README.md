@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Very important message for running this application:
+
+Please note the folloing steps
+1. While uploading the entire node_modules folder to GitHub is generally discouraged. However, it's crucial to approach it with caution and understanding.
+
+Here's a breakdown of the options:
+
+Option 1: Ignore node_modules with .gitignore (recommended) => is used 
+
+This is the preferred approach for most cases. Adding node_modules/ to your .gitignore file instructs Git to ignore changes within the folder, keeping your repository size manageable and clone times faster. Collaborators can then install dependencies themselves using npm install.
+
+So just use `npm install` before the commands given below 
+
 ## Available Scripts
 
 In the project directory, you can run:
